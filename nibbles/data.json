@@ -1,0 +1,91 @@
+
+{ "menu":[{
+               
+    "id":"224471",
+    "name":"3 Chicken Wings",
+    "position":1,
+    "price":"250.00",
+    "consumable":"1:1",
+    "cuisine_name":"Indian",
+    "category_name":"Appeteasers",
+    "drinks": "Chocolate Beverage"
+  
+
+},
+{
+
+    "id":"224474",
+    "name":"Chicken Livers and Portuguese Roll",
+    "drinks": "Hot Chocolate",
+    "position":1,
+    "price":"250.00",
+    "consumable":"1:1",
+    "cuisine_name":"Indian",
+    "category_name":"Appeteasers"
+
+},
+{
+
+    "id":"224477",
+    "name":"Spicy Mixed Olives (V)",
+    "drinks": "Peppermint Hot Chocolate",
+    "position":1,
+    "price":"215.00",
+    "consumable":"1:1",
+    "cuisine_name":"Indian",
+    "category_name":"Appeteasers"
+
+},
+{
+
+
+    "id":"224480",
+    "name":"Hummus with PERI-PERI Drizzle (V)",
+    "position":1,
+    "drinks": "Espresso Beverage",
+    "price":"215.00",
+    "consumable":"1:1",
+    "cuisine_name":"Indian",
+    "category_name":"Appeteasers"
+
+},
+{
+    "id":"224483",
+    "name":"Red Pepper Dip (V)",
+    "position":1,
+    "price":"205.00",
+    "consumable":"1:1",
+    "cuisine_name":"Indian",
+    "drinks": "Caffe Latte",
+    "category_name":"Appeteasers"
+  
+},
+{
+    "id":"224489",
+    "name":"All Together Now (V)",
+    "position":1,
+    "price":"520.00",
+    "drinks": "Caffe Mocha",
+    "consumable":"1:1",
+    "cuisine_name":"Indian",
+    "category_name":"Appeteasers"
+   
+},
+{
+
+    "id":"224522",
+    "name":"Regular",
+    "position":1,
+    "price":"190.00",
+    "consumable":"1:1",
+    "drinks": "Cappuccino",
+    "cuisine_name":"Fast Food",
+    "category_name":"Fino sides"
+ 
+ }
+
+
+
+]
+
+}

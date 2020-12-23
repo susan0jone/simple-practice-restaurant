@@ -1,0 +1,977 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.preloader-box{
+    display: none;
+}
+#nav-button{
+    opacity: 0;
+    text-align: left;
+
+    
+}
+.bars{
+    background-color: orangered;
+    color: white;
+    position: fixed;
+    padding: 20px;
+    left: 20px;
+   
+}
+
+nav{
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    
+}
+
+.fa-bars{
+    font-size: 35px;
+}
+.nav-content p{
+    margin-top: 90px;
+    padding: 20px;
+}
+.nav-content a{
+    text-decoration: none;
+    color: #ffffff;
+ 
+}
+.active{
+    background-color: red;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+.home-image-two img{
+    width: 50%;
+    height: 120px;
+    border-radius: 50%;
+
+}
+.nimbles-main {
+    background-image: url("/Images/main.jpg");
+    background-size: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    animation-name: opaque;
+    animation-duration: 2s;
+    text-align: center;
+    z-index:0;
+    color: white;
+    transition: all 2s ease-in;
+
+    /* display: none; */
+  
+}
+.nimbles-main img{
+    width: 100%;
+}
+@keyframes opaque {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.nimbles-main p{
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    padding: 22px;
+    background: rgb(255, 166, 0);
+    border-radius: 30px;
+}
+.nimbles-main p a{
+    text-decoration: none;
+    color: white;
+}
+.nimbles-main div{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.home-image-content{
+   background-image: url('/Images/foodpeople.jpg'); 
+   color: white;
+   background-size: cover; 
+   width: 50%;
+
+
+}
+#home-image-container{
+    position: absolute; 
+    left: 0;
+    right: 0; 
+   animation-name: homeOpaque;
+  animation-duration: 2s; 
+  transition: all 2s ease-in-out;
+  
+    
+}
+@keyframes homeOpaque {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.home-image-box div{
+    background-color:  rgba(255, 4, 21, 0.4);
+    border-radius: 20px;
+    width: 40%;
+    padding: 15px;
+    color: white;
+}
+.home-image-box{
+    padding: 10px;
+     background-color: rgba(0, 0, 0, 0.6);
+     overflow: hidden;
+ }
+ #home-img{
+    animation-name: introOpaque;
+    animation-duration: 2s;
+}
+
+@keyframes introOpaque {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.home-content-words{
+    padding: 10px;
+    background-color: rgba(243, 118, 2, 0.9);
+}
+.home-content-words hr{
+    width: 70%;
+    background-color: #ff0413;
+    border: solid 1px  #ff0413;
+}
+
+.home-menu{
+   padding: 30px;
+   border-top: solid 1px rgba(255, 4, 21, 0.5);
+   border-bottom: solid 1px rgb(255, 4, 19,0.5);
+   overflow: auto;
+   margin-top: 200px;
+   background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+.restaurant-home{
+    padding-top: 20px;
+    visibility: visible;
+    position: fixed;
+    top: 0px;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/Images/newfood.jpg');
+    background-size: cover; 
+    z-index: -1;
+    filter: blur(5px);
+}
+.home-menu div{
+    display: inline-block;
+  
+}
+
+
+.home-image-two{
+     text-align: center;
+    padding: 20px;
+    width: 60%;
+
+   
+}
+.home-image-two ~ div {
+    background-color: white;
+    padding: 20px;
+     padding-top: 40px; 
+     padding-bottom: 40px;
+     width: 80%; 
+
+
+ 
+
+
+}
+.home-image-two ~ div a{
+    background-color:  #ff0413;
+    opacity: 0.8;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+    width: 50%;
+    border-radius: 5px;
+    transition: opacity 0.5s ease-in-out;
+ 
+}
+.home-image-two ~ div a:hover{
+    opacity: 1;;
+}
+
+
+.reviews div{
+    width: 60%;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 200px;
+}
+.reviews div:nth-child(1){
+     background-color: pink;
+    
+}
+.reviews div:nth-child(2){
+   background-color: orange;
+}
+.reviews div:nth-child(3){
+   background-color: orangered;
+}
+.review-box span{
+    font-size: 30px;
+    font-weight: 700;
+    display: block;
+    padding-bottom: 20px;
+    color: white;
+}
+.opening-hours {
+    margin-top: 50px;
+    background-color:  #f37602; 
+    padding-bottom: 15px;
+   
+    color: white;
+   
+}
+.opening-hours span{
+    display: inline-block;
+    padding: 5px;
+}
+
+.home-interact{
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: space-evenly;
+    padding: 20px;
+    color: white;
+}
+
+.location span p:nth-child(2){
+    font-size: 13px;
+   
+}
+.location span p:nth-child(1){
+    font-size: 13px;
+   
+}
+.social a{
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: rgb(71, 71, 71);
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.menu-box{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    animation-name: menuOpaque;
+    animation-duration: 2s;
+ 
+   
+}
+@keyframes menuOpaque {
+    from{
+        opacity: 0.5;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.menu-image{ 
+    background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5)  ), url('/Images/menufood.jpg');;
+    height: 100%;
+    padding: 50px;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-size: cover;  
+    z-index: -1;
+    font-size: 45px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: white;
+ 
+} 
+
+.menu-content{
+    justify-content: space-evenly;
+    margin-top: 60%;
+    background-color: rgba(255, 166, 0, 0.8);
+    padding: 30px;
+
+}
+.menu-content img{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+   
+}
+.menu-title{
+    background-color: rgba(245, 222, 179, 0.5);
+    color: white;
+    padding: 20px;
+    width: 50%;
+    font-size: 17px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    margin-top: 15px;
+    
+   
+}
+.food .menu-title{
+    margin-top: 15px;
+    background-color: orangered;
+}
+.food-content{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 20px;;
+    padding: 10px;
+    background-color: white;
+   
+}
+.drinks-content{
+    clear: both;
+    margin-top: 10px;
+    margin-bottom: 20px;;
+    padding: 10px;
+    background-color: white; 
+   opacity: 0;
+}
+.foodStyle{
+    width: 70%;
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+}
+.drinkStyle{
+    width: 70%;
+    color: black;
+    padding: 10px;
+    border-radius: 10px; 
+}
+.download-pdf{
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;;
+
+}
+.download-pdf a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width : 1024px) {
+    body{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    .preloader-box{
+        display: block;
+        padding: 200px 0;
+        text-align: center;
+        position: absolute;
+        top:0;
+        bottom : 0;
+        left: 0;
+        right: 0;
+        font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: linear-gradient(70deg, #e7cd6d 20% , #e8be63 35% ,  #f4a358);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        z-index: 452154361537618;
+      
+       
+    }
+    
+    .preloader{
+        height: 40px;
+        width: 40px;
+        animation: element-rotate 3s linear infinite;
+        transform-origin: bottom center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tiny-square{
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+        background-color: #9e400f;
+        /* border-radius: 50%; */
+        margin: -5px;
+        transform: scale(0);
+        animation: grow 1.5s linear infinite;
+    }
+    .tiny-square:nth-child(2){
+        background-color: chocolate;
+        animation-delay: .75s;
+    }
+    @keyframes element-rotate {
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    @keyframes grow {
+        50%{
+            transform: scale(1);
+        }
+    }
+    .nimbles-main img{
+        width: 400px;
+        height: 300px;
+    }
+    
+    .preloader-caption{
+        margin-top: 50px;
+      word-spacing: 5px;
+      font-size: 13px;
+     
+    }
+    .caption{
+        color: red;
+    }
+    .caption:nth-child(2){
+        color: orangered;
+    }
+    .caption:nth-child(3){
+        color: yellow;
+    }
+    nav{
+        padding: 20px 20px;
+        position: fixed;
+        top: 0;
+        text-align: left;
+     
+        
+    }
+    .fa-bars{
+        display: block;
+         color: #ff0413;
+        font-size: 20px;
+    
+    }
+    .fa-bars:hover{
+       
+        transition: all 0.3s ease-in-out;
+        font-size: 23px;
+    }
+    
+    .nav-content{
+        width: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        overflow: hidden;
+        border-radius: 15px;
+    
+    
+       
+        /* width: 0px; */
+    }
+    .bars{
+        background-color: rgba(255, 68, 0, 0);
+    }
+    
+    .nav-content p{
+        display: block;
+        padding: 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .nav-content a{
+        text-decoration: none;
+        color: white;
+     
+    }
+    .active{
+        background-color: red;
+        padding: 20px;
+        border-radius: 40px;
+    
+    }
+    .nav-content a:hover{
+        transition: all 0.3s ease-in-out;
+        font-size: 20px;
+        /* font-weight: bold; */
+    }
+    
+    .nimbles-main {
+        background-image: url("/Images/main.jpg");
+        background-size: cover;
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        animation-name: opaque;
+        animation-duration: 2s;
+        text-align: center;
+        z-index: 0;
+        color: white;
+        transition: all 2s ease-in;
+    
+        /* display: none; */
+      
+    }
+    @keyframes opaque {
+        from{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .nimbles-main p{
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        padding: 22px;
+        background: rgb(255, 166, 0);
+        border-radius: 30px;
+    }
+    .nimbles-main p a{
+        text-decoration: none;
+        color: white;
+    }
+    .nimbles-main p a:hover {
+        color : rgb(83, 70, 46);
+    }
+    .nimbles-main div{
+        background-color: rgba(0, 0, 0, 0.7);
+        margin-top: 60px;
+        padding: 10px;
+    }
+    
+    .home-image-content{
+       background-image: url('/Images/foodpeople.jpg'); 
+       color: white;
+       background-size: cover; 
+       width: 80%;
+    
+    
+    }
+    
+    
+    #home-image-container{
+        position: absolute; 
+        left: 0;
+        right: 0; 
+       animation-name: homeOpaque;
+      animation-duration: 2s; 
+      transition: all 2s ease-in-out;
+      
+        
+    }
+    @keyframes homeOpaque {
+        from{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    .home-image-box div{
+        background-color:  #ff0413;
+        border-radius: 20px;
+        width: fit-content;
+        position: relative;
+        top: 60px;
+        left: -250px;
+        font-size: 37px;
+        letter-spacing: 2px;
+        transform: skew(10deg);
+        padding: 15px;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .home-image-box{
+        height: 200px;
+         background-color: rgba(0, 0, 0, 0.6);
+         overflow: hidden;
+     }
+    
+    #home-img{
+        height: 150px;
+        width: 200px;
+        transform: scale(3);
+        animation-name: introOpaque;
+        animation-duration: 2s;
+        float: right;
+    }
+    
+    @keyframes introOpaque {
+        from{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
+    .home-content-words{
+        padding: 10px;
+        background-color: rgba(243, 118, 2, 0.9);
+    }
+    .home-content-words hr{
+        width: 400px;
+        background-color: #ff0413;
+        border: solid 1px  #ff0413;
+    }
+    
+    .home-menu{
+       padding: 30px;
+       border-top: solid 1px rgba(255, 4, 21, 0.5);
+       border-bottom: solid 1px rgb(255, 4, 19,0.5);
+       overflow: auto;
+       margin-top: 200px;
+       background-color: rgba(0, 0, 0, 0.6);
+    
+    
+    }
+    .restaurant-home{
+        padding-top: 50px;
+        visibility: visible;
+        position: fixed;
+        top: 0px;
+        left:0;
+        right: 0;
+        bottom: 0;
+        background-image: url('/Images/newfood.jpg');
+        background-size: cover; 
+        z-index: -1;
+        filter: blur(5px);
+    }
+    .home-menu div{
+        display: inline-block;
+      
+    }
+    .home-image-two img{
+        width: 300px;
+        height: 250px;
+        border-radius: 50%;
+    
+    }
+    
+    .home-image-two{
+         text-align: center;
+        padding: 20px;
+        width: 450px;
+        background-color: #f37602;
+    
+       
+    }
+    .home-image-two ~ div {
+        background-color: white;
+        position: relative;
+        left: -50px;
+         padding-top: 70px; 
+         padding-bottom: 40px;
+         width: 500px; 
+    
+     
+    
+    
+    }
+    .home-image-two ~ div a{
+        background-color:  #ff0413;
+        opacity: 0.8;
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: 20px;
+        width: fit-content;
+        border-radius: 5px;
+        transition: opacity 0.5s ease-in-out;
+     
+    }
+    .home-image-two ~ div a:hover{
+        opacity: 1;;
+    }
+    .home-reservation{
+        padding: 30px;
+        border-top: solid 1px #ff0413;
+        border-bottom: solid 1px #ff0413;
+        overflow: auto;
+        margin-top: 200px;
+        background-color: rgba(0, 0, 0, 0.6);
+     }
+     .home-reservation div{
+        display: inline-block;
+      
+    }
+     .home-reservation img{
+         width: 300px;
+         height: 250px;
+         border-radius: 50%;
+     
+     }
+     
+     .home-reservation-img{
+        text-align: center;
+        padding: 20px;
+        width: 450px;
+        background-color: #f37602;
+     }
+     .home-reservation-content {
+        background-color: white;
+        position: relative;
+        left: 50px;
+         padding-top: 70px; 
+         padding-bottom: 40px;
+         width: 500px;
+         margin-left: -100px;
+        
+     }
+     .home-reservation-content a{
+         background-color:  #ff0413;
+         text-decoration: none;
+         color: white;
+         display: block;
+         padding: 20px;
+         width: fit-content;
+         border-radius: 5px;
+         transition: opacity 0.5s ease-in-out;
+         opacity: 0.8;
+     }
+     .home-reservation-content a:hover{
+         opacity: 1;
+     }
+    
+     .reviews{
+         display: flex;
+         justify-content: space-evenly;
+       
+     }
+     .reviews div{
+         height: 250px;
+         width: 80px;
+         padding: 30px;
+         overflow: hidden;
+         border-radius: 5px;
+         margin-top: 200px;
+     }
+    .reviews div:nth-child(1){
+          background-color: pink;
+         
+    }
+    .reviews div:nth-child(2){
+        background-color: orange;
+    }
+    .reviews div:nth-child(3){
+        background-color: orangered;
+    }
+    
+    .opening-hours {
+        margin-top: 50px;
+        background-color:  #f37602; 
+        padding-bottom: 15px;
+       
+        color: white;
+       
+    }
+    .home-interact{
+        margin-top: 50px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+        color: white;
+    }
+    
+    .review-box{
+        background-color: #9b000a;;
+        padding: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .review-box span{
+        font-size: 30px;
+        font-weight: 700;
+        display: block;
+        padding-bottom: 20px;
+        color: white;
+    }
+    .location span p:nth-child(2){
+        font-size: 13px;
+       
+    }
+    .location span p:nth-child(1){
+        font-size: 13px;
+       
+    }
+    .social a{
+        display: inline-block;
+        background-color: white;
+        padding: 5px;
+        padding-left: 7px;
+        padding-right: 7px;
+        color: rgb(71, 71, 71);
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    
+    .menu-box{
+        position: absolute;
+        top:0;
+        left:0;
+        right:0;
+        animation-name: menuOpaque;
+        animation-duration: 2s;
+     
+       
+    }
+    @keyframes menuOpaque {
+        from{
+            opacity: 0.5;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+     .menu-image{ 
+        background-image: linear-gradient( 90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5)  ), url('/Images/menufood.jpg');;
+        height: 300px;
+        padding: 150px;
+        position: fixed;
+        top:0;
+        left: 0;
+        right: 0;
+        background-size: cover;  
+        z-index: -1;
+        font-size: 45px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: white;
+     
+    } 
+    
+    .menu-content{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 350px;
+        background-color: rgba(255, 166, 0, 0.8);
+        padding: 50px;
+        height: 650px;
+    
+    }
+    .menu-title:hover{
+        transform: scale(0.9);
+    
+    }
+    .menu-content img{
+        width: 115px;
+        height: 100px;
+        border-radius: 20px;
+        float: left;
+       
+    }
+    .menu-title{
+        background-color: rgba(245, 222, 179, 0.5);
+        color: white;
+        padding: 20px;
+        width: 200px;
+        font-size: 17px;
+        border-radius: 20px;
+        transition: all 0.5s ease-in-out;
+        margin-top: 15px;
+        
+       
+    }
+    
+    
+    .food .menu-title{
+        margin-top: 15px;
+        background-color: orangered;
+    }
+    .food-content{
+        clear: both;
+        margin-top: 100px;
+        position: absolute;
+        background-color: white;
+        margin-bottom: 0px;;
+        padding: 20px;
+        width: 670px;
+       
+    }
+    .drinks-content{
+        clear: both;
+        margin-top: 100px;
+        position: absolute;
+        background-color: white; 
+        width: 670px;
+        margin-bottom: 0px;;
+        padding: 20px;
+        margin-left: -468px;
+       opacity: 0;
+    }
+    .foodStyle{
+        margin-top: 10px;
+        font-size: 15px;
+        width: 400px;
+        padding: 10px;
+        color: black;
+    }
+    .drinkStyle{
+        margin-top: 20px;
+        font-size: 15px;
+        width: 400px;
+        color: black;
+        padding: 10px;
+    }
+    .download-pdf{
+        padding: 10px;
+        margin-top: 30px;
+        position: relative;
+        top: 500px;
+    }
+    .download-pdf a:hover{
+        text-decoration: none;
+    }
+
+
+}
+

@@ -1,0 +1,104 @@
+<div id="home-image-container"  ng-controller="myAboutCtrl as Aboutctrl" data-ng-init = "Aboutctrl.fetchImg()">
+  <nav>
+    <div align="left" class = "bars" ng-click = "ctrl.nav()"><i class="fas fa-bars"></i></div>
+    <div id="nav-button" class="nav-content">
+        <p class="home-nav"><a ui-sref="home" >Home</p>
+        <p class="about-nav"><a ui-sref="about" ng-class="Aboutctrl.style">About</a></p>
+        <p class="menu-nav"><a ui-sref="menu">Menu</a></p>
+    </div>
+  </nav> 
+  <div id="home-image-content">
+     <div class="home-image-box"> 
+     
+       <img id="home-img" src="" alt="food carousel">
+       <div><i>Taste Happiness...</i></div></div>
+      
+    <div class="home-image-content">
+      <div class="home-content-words">
+        <p><h2>ABOUT US</h2></p><hr/>
+        <p>Nibble is a cozy restaurant in Western Nigeria offering </p>
+        <p> take-out and patio dining for the fall of 2020. </p>
+        <p> Located in one of Lagos’ most historic buildings.</p>
+        <p> Nibble opened in 2009 as a family style restaurant</p>
+        <p> and serves Mediterranean BBQ-inspired brunch and dinner selections,</p>
+        <p>homemade sweets and fresh fruit cocktails along with wine pairings and craft beer.</p>
+        <p>The folks at Culinaria invite you to pop over,</p>
+        <p>relax and celebrate one of life’s greatest joys</p>
+      </div>
+    </div>
+  </div>
+  <div class="home-menu">
+    <div class="restaurant-home"></div>
+    <div class="home-image-two"><img src="/Images/sausage.jpg" /></div>
+    <div>
+      <h1>OUR MENU</h1>
+      <p>View our complete food and beverage menu featuring <br/>
+          many local and organic ingredient
+      </p>
+      <a ui-sref="menu">View Menu</a>
+    </div>
+  </div><br/>
+  <div class="review-box">
+    <span>Our Reviews</span>
+    <div class="reviews">
+      <div class="review-content">
+        <p>"I visited this place with my,</p>
+        <p>family on a vacation last week.</p>
+        <p>They have very nice customer service</p>
+        <p>and it's great for kids.</p>
+        <p>will defintely be visiting again"</p>
+     
+      </div>
+      <div class="review-content">
+        <p>"I had breakfast here with my</p>
+        <p>fiancee' a while back.</p>
+        <p>we had a good time"</p>
+        <!-- <p>dolore magna aliquam erat volutpat.</p>
+        <p>Ut wisi enim ad minim veniam,"</p> -->
+      
+      </div>
+      <div class="review-content">
+        <p>"Spent the afternoon here,</p>
+        <p> with my wife and kids.</p>
+        <p> very commendable customer service.</p>
+        <p>will be recommending</p>
+        <p>to my friends"</p>
+      
+      </div>
+    </div>
+   </div><br/>
+   <div class="opening-hours">
+     <span><h2>OPENING HOURS</h2></span>
+     <p><h3>BRUNCH:</h3></p>
+     <p>Sat – Sun: 11:30 AM – 3:30 PM</p>
+     <p><h3>DINNER:</h3> </p>
+     <p>Sun – Mon: 5:30 PM – 11:00 PM</p>
+     <p>Tues – Fri: 6:00 PM – 11:30 PM</p>
+     <p>Saturday: 5:30 PM – 11:30 PM</p>
+    </div>
+    <div class="home-interact">
+      <div class="location">
+        <span><h3>Visit Us</h3></span><hr/>
+        <span>
+          <p>2 LEXINGTON AVENUE (AT 21ST STREET),</p>
+          <p>LOCATED AT THE GRAMERCY PARK HOTEL</p>
+        </span>
+      </div>
+      <div class="contact">
+        <span><h3>Talk With Us</h3></span><hr/>
+        <p>
+          Tel : 555-666
+        </p>
+
+      </div>
+      <div class="social">
+        <span><h3>Follow Us</h3></span><hr/>
+        <p>
+          <span><a href=""><i class="fab fa-facebook"></i></a></span>
+          <span><a href=""><i class="fab fa-twitter"></i></a></span>
+          <span><a href=""><i class="fab fa-instagram"></i></a></span>
+        </p>
+      </div>
+    </div>
+      
+</div>

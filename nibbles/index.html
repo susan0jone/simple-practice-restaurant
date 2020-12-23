@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="src/nibbles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="src/nibbles.js"></script>
+</head>
+<body ng-app="nibbleApp" ng-controller="myCtrl as ctrl" data-ng-init="ctrl.onload()">
+   <div class="preloader-box">
+       <div class="preloader">
+           <div class="tiny-square"></div>
+           <div class="tiny-square"></div>
+        </div>
+        <div class='preloader-caption'>
+            <span class="caption">live</span>
+            <span class="caption">love</span>
+            <span class="caption">eat</span> </i>
+        </div>
+    </div>
+    <div class="loading-container">
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <div class="content-container" align="center">
+        <div ui-view></div>
+    </div>
+  
+
+</body>
+</html>

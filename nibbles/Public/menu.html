@@ -1,0 +1,30 @@
+<div class="menu-box" ng-controller="myMenuCtrl as Menuctrl" >
+  <nav>
+    <div align="left" class = "bars" ng-click = "ctrl.nav()"><i class="fas fa-bars"></i></div>
+    <div id="nav-button" class="nav-content" >
+        <p class="home-nav"><a ui-sref="home">Home</p>
+        <p class="about-nav"><a ui-sref="about">About</a></p>
+        <p class="menu-nav"><a ui-sref="menu"  ng-class="Menuctrl.style">Menu</a></p>
+    </div>
+
+</nav> 
+    <div class="menu-image"><span>OUR MENUS</span></div>
+    <div class="menu-content">
+      <div class="food"><img src="/Images/hamburger.jpg"/>
+        <div class="menu-title" ng-click = "Menuctrl.foodDisplay()">Food</div> 
+        <div class="food-content"></div>
+        <div class="download-pdf">
+          
+          <a href="Document.docx" download = "nibble food pdf">download food pdf</a>
+        </div>
+    </div>
+      <div class="drinks"><img src="/Images/drinks.jpg"/>
+        <div class="menu-title"  ng-click = "Menuctrl.drinksDisplay()">Drinks</div>
+        <div class="drinks-content"></div>
+        <div class="download-pdf">
+          <a href="file.docx" download = "nibble drinks pdf">download drinks pdf</a>
+        
+        </div>
+    </div>
+    </div>
+</div>
